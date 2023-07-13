@@ -1,5 +1,10 @@
 # Grafana dashboard for Prometheus Blackbox exporter ICMP ping RTT and packet loss visualization
 
+Prometheus Blackbox exporter is configured to send two types of ICMP ping packets:
+1) standard 64 bytes ping packets are sent once in 5 seconds;  
+2) oversize 64 Kbytes ping packets are sent once in 30 seconds.  
+Larger packets may help to diagnose problems with networking or with CPU load being too high.
+
 This dashboard was created with Grafana 9.5.2.
 
 ![IMAGE_DESCRIPTION](icmp-ping-grafana-dashboard.png)

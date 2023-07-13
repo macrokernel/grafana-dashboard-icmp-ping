@@ -1,5 +1,7 @@
 # Grafana dashboard for Prometheus Blackbox exporter ICMP ping RTT and packet loss visualization
 
+This dashboard was created with Grafana 9.5.2.
+
 ![IMAGE_DESCRIPTION](icmp-ping-grafana-dashboard.png)
 
 ### Prometheus Blackbox exporter configuration
